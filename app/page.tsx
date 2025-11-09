@@ -21,6 +21,11 @@ const tools = [
     description: "Base64を文字列に、文字列をBase64に変換",
     href: "/tools/base64-converter",
   },
+  {
+    title: "URLエンコード / デコードツール",
+    description: "日本語や記号をURLエンコードに変換・復元",
+    href: "/tools/url-encoder",
+  },
 ];
 
 export default function Home() {
