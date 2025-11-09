@@ -48,5 +48,10 @@
     "title": "Unixタイム変換",
     "description": "Unix⇄日付 変換",
     "href": "/tools/unix-time-converter"
+  },
+  {
+    "title": "色コード変換",
+    "description": "RGB⇄HEX 変換",
+    "href": "/tools/color-converter"
   }
 ]
