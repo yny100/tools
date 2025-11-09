@@ -53,5 +53,10 @@
     "title": "色コード変換",
     "description": "RGB⇄HEX 変換",
     "href": "/tools/color-converter"
+  },
+  {
+    "title": "Diffツール",
+    "description": "2つの文字列比較",
+    "href": "/tools/diff-checker"
   }
 ]
