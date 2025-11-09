@@ -31,6 +31,11 @@ const tools = [
     description: "JSONを整形（インデント）・圧縮・検証",
     href: "/tools/json-formatter",
   },
+  {
+    title: "HTMLエスケープ / アンエスケープツール",
+    description: "&lt;div&gt; ⇄ <div> の変換",
+    href: "/tools/html-escape",
+  },
 ];
 
 export default function Home() {
