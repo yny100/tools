@@ -103,5 +103,30 @@
     "title": "Gitignoreジェネレーター",
     "description": ".gitignoreファイルを生成します",
     "href": "/tools/gitignore-generator"
+  },
+  {
+    "title": "パスワード生成ツール",
+    "description": "ランダムで安全なパスワードを生成します",
+    "href": "/tools/password-generator"
+  },
+  {
+    "title": "QRコード生成ツール",
+    "description": "テキストやURLからQRコードを生成します",
+    "href": "/tools/qr-generator"
+  },
+  {
+    "title": "バーコード生成ツール",
+    "description": "テキストをバーコードに変換します",
+    "href": "/tools/barcode-generator"
+  },
+  {
+    "title": "バイナリ ⇄ テキスト変換ツール",
+    "description": "文字列をバイナリや逆に変換します",
+    "href": "/tools/binary-converter"
+  },
+  {
+    "title": "UUID生成ツール",
+    "description": "ランダムなUUID（v4）を生成します",
+    "href": "/tools/uuid-generator"
   }
 ]
