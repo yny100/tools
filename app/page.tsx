@@ -26,6 +26,11 @@ const tools = [
     description: "日本語や記号をURLエンコードに変換・復元",
     href: "/tools/url-encoder",
   },
+  {
+    title: "JSON整形ツール",
+    description: "JSONを整形（インデント）・圧縮・検証",
+    href: "/tools/json-formatter",
+  },
 ];
 
 export default function Home() {
