@@ -73,5 +73,35 @@
     "title": "YAML ⇄ JSON 変換ツール",
     "description": "YAMLとJSONを変換します",
     "href": "/tools/yaml-json-converter"
+  },
+  {
+    "title": ".env ⇄ JSON 変換ツール",
+    "description": ".envとJSONを変換します",
+    "href": "/tools/env-json-converter"
+  },
+  {
+    "title": "HTML整形ツール",
+    "description": "HTMLコードを読みやすく整形します",
+    "href": "/tools/html-formatter"
+  },
+  {
+    "title": "CSSミニファイツール",
+    "description": "CSSコードを圧縮・最適化して軽量化します",
+    "href": "/tools/css-minifier"
+  },
+  {
+    "title": "JavaScriptミニファイツール",
+    "description": "JSコードを圧縮してサイズを小さくします",
+    "href": "/tools/js-minifier"
+  },
+  {
+    "title": "SQLフォーマッタ",
+    "description": "SQL文を整形して読みやすくします",
+    "href": "/tools/sql-formatter"
+  },
+  {
+    "title": "Gitignoreジェネレーター",
+    "description": ".gitignoreファイルを生成します",
+    "href": "/tools/gitignore-generator"
   }
 ]

@@ -11,14 +11,20 @@
   "dependencies": {
     "@radix-ui/react-select": "^2.2.6",
     "@radix-ui/react-slot": "^1.2.4",
+    "@types/clean-css": "^4.2.11",
     "class-variance-authority": "^0.7.1",
+    "clean-css": "^5.3.3",
     "clsx": "^2.1.1",
+    "D": "^1.0.0",
     "js-yaml": "^4.1.0",
     "lucide-react": "^0.553.0",
     "next": "16.0.1",
+    "prettier": "^3.6.2",
     "react": "19.2.0",
     "react-dom": "19.2.0",
-    "tailwind-merge": "^3.3.1"
+    "sql-formatter": "^15.6.10",
+    "tailwind-merge": "^3.3.1",
+    "terser": "^5.44.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
