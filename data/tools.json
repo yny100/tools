@@ -1,197 +1,212 @@
 [
   {
-    "title": "文字数カウンター",
-    "description": "テキストの文字をすぐにカウント",
-    "href": "/tools/text-counter"
+    "category": "テキスト系ツール",
+    "tools": [
+      {
+        "title": "文字数カウンター",
+        "description": "テキストの文字をすぐにカウント",
+        "href": "/tools/text-counter"
+      },
+      {
+        "title": "文字列を逆順にする",
+        "description": "テキストを逆から並べ替えます",
+        "href": "/tools/reverse-text"
+      },
+      {
+        "title": "大文字・小文字変換ツール",
+        "description": "大文字を小文字に、小文字を大文字に変換",
+        "href": "/tools/case-converter"
+      },
+      {
+        "title": "Diffツール",
+        "description": "2つの文字列比較",
+        "href": "/tools/diff-checker"
+      }
+    ]
   },
   {
-    "title": "文字列を逆順にする",
-    "description": "テキストを逆から並べ替えます",
-    "href": "/tools/reverse-text"
+    "category": "IT系ツール",
+    "tools": [
+      {
+        "title": "Base64 ⇄ 文字列変換ツール",
+        "description": "Base64を文字列に、文字列をBase64に変換",
+        "href": "/tools/base64-converter"
+      },
+      {
+        "title": "URLエンコード / デコードツール",
+        "description": "日本語や記号をURLエンコードに変換・復元",
+        "href": "/tools/url-encoder"
+      },
+      {
+        "title": "JSON整形ツール",
+        "description": "JSONを整形（インデント）・圧縮・検証",
+        "href": "/tools/json-formatter"
+      },
+      {
+        "title": "HTMLエスケープ / アンエスケープツール",
+        "description": "&lt;div&gt; ⇄ <div> の変換",
+        "href": "/tools/html-escape"
+      },
+      {
+        "title": "改行コード変換",
+        "description": "LF⇄CRLF⇄CR 変換",
+        "href": "/tools/line-break-converter"
+      },
+      {
+        "title": "JWTデコードツール",
+        "description": "JWTをデコードします",
+        "href": "/tools/jwt-decoder"
+      },
+      {
+        "title": "HTTPステータスコード",
+        "description": "HTTPステータスコードをチェックします",
+        "href": "/tools/http-status-checker"
+      },
+      {
+        "title": "JSONスキーマバリデータ",
+        "description": "JSONが正しい形をしているかチェック",
+        "href": "/tools/json-schema-validator"
+      },
+      {
+        "title": "YAML ⇄ JSON 変換ツール",
+        "description": "YAMLとJSONを変換します",
+        "href": "/tools/yaml-json-converter"
+      },
+      {
+        "title": ".env ⇄ JSON 変換ツール",
+        "description": ".envとJSONを変換します",
+        "href": "/tools/env-json-converter"
+      },
+      {
+        "title": "HTML整形ツール",
+        "description": "HTMLコードを読みやすく整形します",
+        "href": "/tools/html-formatter"
+      },
+      {
+        "title": "CSSミニファイツール",
+        "description": "CSSコードを圧縮・最適化して軽量化します",
+        "href": "/tools/css-minifier"
+      },
+      {
+        "title": "JavaScriptミニファイツール",
+        "description": "JSコードを圧縮してサイズを小さくします",
+        "href": "/tools/js-minifier"
+      },
+      {
+        "title": "SQLフォーマッタ",
+        "description": "SQL文を整形して読みやすくします",
+        "href": "/tools/sql-formatter"
+      },
+      {
+        "title": "パスワード生成ツール",
+        "description": "ランダムで安全なパスワードを生成します",
+        "href": "/tools/password-generator"
+      },
+      {
+        "title": "QRコード生成ツール",
+        "description": "テキストやURLからQRコードを生成します",
+        "href": "/tools/qr-generator"
+      },
+      {
+        "title": "バーコード生成ツール",
+        "description": "テキストをバーコードに変換します",
+        "href": "/tools/barcode-generator"
+      },
+      {
+        "title": "バイナリ ⇄ テキスト変換ツール",
+        "description": "文字列をバイナリや逆に変換します",
+        "href": "/tools/binary-converter"
+      },
+      {
+        "title": "UUID生成ツール",
+        "description": "ランダムなUUID（v4）を生成します",
+        "href": "/tools/uuid-generator"
+      },
+      {
+        "title": ".NET デコンパイラー",
+        "description": "DLL(.NET Assembly)をC#に逆コンパイル",
+        "href": "/tools/dotnet-decompiler"
+      }
+    ]
   },
   {
-    "title": "大文字・小文字変換ツール",
-    "description": "大文字を小文字に、小文字を大文字に変換",
-    "href": "/tools/case-converter"
+    "category": "単位変換系ツール",
+    "tools": [
+      {
+        "title": "Unixタイム変換",
+        "description": "Unix⇄日付 変換",
+        "href": "/tools/unix-time-converter"
+      },
+      {
+        "title": "色コード変換",
+        "description": "RGB⇄HEX 変換",
+        "href": "/tools/color-converter"
+      },
+      {
+        "title": "進数変換ツール",
+        "description": "2・8・10・16進数の相互変換を行います",
+        "href": "/tools/number-base-converter"
+      },
+      {
+        "title": "単位変換ツール",
+        "description": "長さ・重さ・体積などの単位を変換します",
+        "href": "/tools/unit-converter"
+      },
+      {
+        "title": "温度変換ツール",
+        "description": "摂氏・華氏・ケルビンの温度を変換します",
+        "href": "/tools/temperature-converter"
+      },
+      {
+        "title": "時間変換ツール",
+        "description": "秒・分・時間・日を変換します",
+        "href": "/tools/time-converter"
+      }
+    ]
   },
   {
-    "title": "Base64 ⇄ 文字列変換ツール",
-    "description": "Base64を文字列に、文字列をBase64に変換",
-    "href": "/tools/base64-converter"
-  },
-  {
-    "title": "URLエンコード / デコードツール",
-    "description": "日本語や記号をURLエンコードに変換・復元",
-    "href": "/tools/url-encoder"
-  },
-  {
-    "title": "JSON整形ツール",
-    "description": "JSONを整形（インデント）・圧縮・検証",
-    "href": "/tools/json-formatter"
-  },
-  {
-    "title": "HTMLエスケープ / アンエスケープツール",
-    "description": "&lt;div&gt; ⇄ <div> の変換",
-    "href": "/tools/html-escape"
-  },
-  {
-    "title": "改行コード変換",
-    "description": "LF⇄CRLF⇄CR 変換",
-    "href": "/tools/line-break-converter"
-  },
-  {
-    "title": "JWTデコードツール",
-    "description": "JWTをデコードします",
-    "href": "/tools/jwt-decoder"
-  },
-  {
-    "title": "Unixタイム変換",
-    "description": "Unix⇄日付 変換",
-    "href": "/tools/unix-time-converter"
-  },
-  {
-    "title": "色コード変換",
-    "description": "RGB⇄HEX 変換",
-    "href": "/tools/color-converter"
-  },
-  {
-    "title": "Diffツール",
-    "description": "2つの文字列比較",
-    "href": "/tools/diff-checker"
-  },
-  {
-    "title": "HTTPステータスコード",
-    "description": "HTTPステータスコードをチェックします",
-    "href": "/tools/http-status-checker"
-  },
-  {
-    "title": "JSONスキーマバリデータ",
-    "description": "JSONが正しい形をしているかチェック",
-    "href": "/tools/json-schema-validator"
-  },
-  {
-    "title": "YAML ⇄ JSON 変換ツール",
-    "description": "YAMLとJSONを変換します",
-    "href": "/tools/yaml-json-converter"
-  },
-  {
-    "title": ".env ⇄ JSON 変換ツール",
-    "description": ".envとJSONを変換します",
-    "href": "/tools/env-json-converter"
-  },
-  {
-    "title": "HTML整形ツール",
-    "description": "HTMLコードを読みやすく整形します",
-    "href": "/tools/html-formatter"
-  },
-  {
-    "title": "CSSミニファイツール",
-    "description": "CSSコードを圧縮・最適化して軽量化します",
-    "href": "/tools/css-minifier"
-  },
-  {
-    "title": "JavaScriptミニファイツール",
-    "description": "JSコードを圧縮してサイズを小さくします",
-    "href": "/tools/js-minifier"
-  },
-  {
-    "title": "SQLフォーマッタ",
-    "description": "SQL文を整形して読みやすくします",
-    "href": "/tools/sql-formatter"
-  },
-  {
-    "title": "Gitignoreジェネレーター",
-    "description": ".gitignoreファイルを生成します",
-    "href": "/tools/gitignore-generator"
-  },
-  {
-    "title": "パスワード生成ツール",
-    "description": "ランダムで安全なパスワードを生成します",
-    "href": "/tools/password-generator"
-  },
-  {
-    "title": "QRコード生成ツール",
-    "description": "テキストやURLからQRコードを生成します",
-    "href": "/tools/qr-generator"
-  },
-  {
-    "title": "バーコード生成ツール",
-    "description": "テキストをバーコードに変換します",
-    "href": "/tools/barcode-generator"
-  },
-  {
-    "title": "バイナリ ⇄ テキスト変換ツール",
-    "description": "文字列をバイナリや逆に変換します",
-    "href": "/tools/binary-converter"
-  },
-  {
-    "title": "UUID生成ツール",
-    "description": "ランダムなUUID（v4）を生成します",
-    "href": "/tools/uuid-generator"
-  },
-  {
-    "title": "進数変換ツール",
-    "description": "2・8・10・16進数の相互変換を行います",
-    "href": "/tools/number-base-converter"
-  },
-  {
-    "title": "パーセンテージ計算ツール",
-    "description": "割合や%計算を簡単に行います",
-    "href": "/tools/percentage-calculator"
-  },
-  {
-    "title": "温度変換ツール",
-    "description": "摂氏・華氏・ケルビンの温度を変換します",
-    "href": "/tools/temperature-converter"
-  },
-  {
-    "title": "年齢計算ツール",
-    "description": "生年月日から現在の年齢を計算します",
-    "href": "/tools/age-calculator"
-  },
-  {
-    "title": "BMI計算ツール",
-    "description": "身長と体重からBMI値を計算します",
-    "href": "/tools/bmi-calculator"
-  },
-  {
-    "title": "単位変換ツール",
-    "description": "長さ・重さ・体積などの単位を変換します",
-    "href": "/tools/unit-converter"
-  },
-  {
-    "title": "時間変換ツール",
-    "description": "秒・分・時間・日を変換します",
-    "href": "/tools/time-converter"
-  },
-  {
-    "title": "日付差計算ツール",
-    "description": "2つの日付の差（日数）を計算します",
-    "href": "/tools/date-difference"
-  },
-  {
-    "title": "ストップウォッチ",
-    "description": "シンプルなストップウォッチ機能です",
-    "href": "/tools/stopwatch"
-  },
-  {
-    "title": "カウントダウンタイマー",
-    "description": "指定秒数のカウントダウンを行います",
-    "href": "/tools/countdown-timer"
-  },
-  {
-    "title": "税込み／税抜き計算ツール",
-    "description": "税込・税抜価格を自動で計算します",
-    "href": "/tools/tax-calculator"
-  },
-  {
-    "title": "ローン返済計算ツール",
-    "description": "金利・年数から月々の返済額を算出します",
-    "href": "/tools/loan-calculator"
-  },
-  {
-    "title": ".NET デコンパイラー",
-    "description": "DLL(.NET Assembly)をC#に逆コンパイル",
-    "href": "/tools/dotnet-decompiler"
+    "category": "計算系ツール",
+    "tools": [
+      {
+        "title": "日付差計算ツール",
+        "description": "2つの日付の差（日数）を計算します",
+        "href": "/tools/date-difference"
+      },
+      {
+        "title": "ストップウォッチ",
+        "description": "シンプルなストップウォッチ機能です",
+        "href": "/tools/stopwatch"
+      },
+      {
+        "title": "カウントダウンタイマー",
+        "description": "指定秒数のカウントダウンを行います",
+        "href": "/tools/countdown-timer"
+      },
+      {
+        "title": "税込み / 税抜き計算ツール",
+        "description": "税込・税抜価格を自動で計算します",
+        "href": "/tools/tax-calculator"
+      },
+      {
+        "title": "ローン返済計算ツール",
+        "description": "金利・年数から月々の返済額を算出します",
+        "href": "/tools/loan-calculator"
+      },
+      {
+        "title": "パーセンテージ計算ツール",
+        "description": "割合や%計算を簡単に行います",
+        "href": "/tools/percentage-calculator"
+      },
+      {
+        "title": "年齢計算ツール",
+        "description": "生年月日から現在の年齢を計算します",
+        "href": "/tools/age-calculator"
+      },
+      {
+        "title": "BMI計算ツール",
+        "description": "身長と体重からBMI値を計算します",
+        "href": "/tools/bmi-calculator"
+      }
+    ]
   }
 ]
