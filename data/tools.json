@@ -126,6 +126,11 @@
         "title": ".NET デコンパイラー",
         "description": "DLL(.NET Assembly)をC#に逆コンパイル",
         "href": "/tools/dotnet-decompiler"
+      },
+      {
+        "title": ".pcap デコンパイラー",
+        "description": ".pcapを複合・解析します",
+        "href": "/tools/pcap-decode"
       }
     ]
   },
