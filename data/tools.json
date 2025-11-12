@@ -246,6 +246,11 @@
         "title": "カウントダウンタイマー",
         "description": "指定秒数のカウントダウンを行います",
         "href": "/tools/countdown-timer"
+      },
+      {
+        "title": "世界時計",
+        "description": "世界各地の時間を表示します",
+        "href": "/tools/world-clock"
       }
     ]
   }
