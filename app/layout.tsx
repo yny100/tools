@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Noto_Sans_JP, Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import { Analytics } from "@vercel/analytics/next";
 
 const NotoSansJP = Noto_Sans_JP();
 const PoppinsFont = Poppins({ weight: "400" });
@@ -22,6 +23,7 @@ export default function RootLayout({
       <body className={`${NotoSansJP.className} ${PoppinsFont.className}`}>
         <Navbar />
         {children}
+        <Analytics />
       </body>
     </html>
   );
