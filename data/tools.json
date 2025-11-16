@@ -161,6 +161,11 @@
         "title": ".pcap デコンパイラー",
         "description": ".pcapを複合・解析します",
         "href": "/tools/pcap-decode"
+      },
+      {
+        "title": "画像拡張子変換ツール",
+        "description": "画像ファイルの拡張子を変換します",
+        "href": "/tools/image-extension-converter"
       }
     ]
   },
